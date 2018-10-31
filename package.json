@@ -1,0 +1,60 @@
+{
+  "name": "webMobile-cli",
+  "description": "基于React技术栈的web移动前端框架脚手架",
+  "keywords": [
+    "react"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://git.coding.net/niannianyimeng/webMobile-cli.git",
+  "bugs": {
+    "user": "Simon",
+    "email": "amthink@126.com"
+  },
+  "author": {
+    "name": "Simon",
+    "email": "amthink@126.com",
+    "url": "https://github.com/mmddgg"
+  },
+  "private": true,
+  "dependencies": {
+    "antd-mobile": "^2.2.5",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "es6-promise": "^4.2.5",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "log-symbols": "^2.2.0",
+    "nprogress": "^0.2.0",
+    "ora": "^3.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.5",
+    "roadhog": "^2.4.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "bin": {
+    "webmobile": "./bin/webmobile.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-plugin-import": "^1.9.1",
+    "react-app-rewired": "^1.6.2"
+  },
+  "proxy":"https://jlh5.sy-payment.site:7443/serviceEndpoint/json",
+  "license": "MIT License"
+}
